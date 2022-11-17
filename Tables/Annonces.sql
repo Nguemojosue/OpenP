@@ -3,7 +3,5 @@ CREATE TABLE Annonces (
     date_publication DATE,
     duree TIME,
     Pressingsid_pressings VARCHAR(255),
-    Utilisateurid_utilisateur VARCHAR(255),
-    Utilisateurid_utilisateur2 VARCHAR(255)
-    
+    Utilisateurid_utilisateur VARCHAR(255)
 );

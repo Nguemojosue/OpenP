@@ -1,0 +1,1 @@
+ALTER TABLE Pressings ADD CONSTRAINT Utilisateur_fk FOREIGN key (id_utilisateur) REFERENCE Utilisateur (id_utilisateur);
