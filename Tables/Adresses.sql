@@ -3,3 +3,5 @@ CREATE TABLE Adresses (
     ville VARCHAR(255),
     quartier VARCHAR(255)
 );
+
+;
