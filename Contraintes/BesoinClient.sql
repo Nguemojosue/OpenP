@@ -1,4 +1,4 @@
-    ALTER TABLE BesoinClient (
+    ALTER TABLE BesoinClient 
         ADD
         CONSTRAINT fore_typelinges
         FOREIGN KEY (TypeLingesid_typeLinges) REFERENCES TypeLinges(id_typeLignes),
@@ -13,5 +13,7 @@
         CONSTRAINT fore_Adresses3
         FOREIGN KEY (Adresseid_adresse3) REFERENCES Adresses (id_adresse),
         CONSTRAINT fore_Pressings
-        FOREIGN KEY (Pressingid_pressings) REFERENCES Pressings (id_pressings)
-    );
+        FOREIGN KEY (Pressingid_pressings) REFERENCES Pressings (id_pressings);
+
+
+    
