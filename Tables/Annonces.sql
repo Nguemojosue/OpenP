@@ -1,5 +1,5 @@
 CREATE TABLE Annonces (
-    id_annonces integer(10) PRIMARY KEY NOT NULL,
+    id_annonces VARCHAR(255) PRIMARY KEY NOT NULL,
     date_publication DATE,
     duree DATE,
     Pressingsid_pressings VARCHAR(255),

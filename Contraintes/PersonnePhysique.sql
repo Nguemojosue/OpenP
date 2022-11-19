@@ -1,4 +1,6 @@
+--
+-- contraintes de la table PersonnePhysique
+--
 ALTER TABLE PersonnePhysique
-        ADD
-        CONSTRAINT fore_Personnes
-        FOREIGN KEY (Personnesid_personne) REFERENCES PersonnePhysique(id_personnePhysique);
+ADD CONSTRAINT fk_PersonnePhysique FOREIGN KEY (Personnesid_personne)
+REFERENCES Personnes (id_personne);

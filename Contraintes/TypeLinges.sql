@@ -1,4 +1,6 @@
+--
+-- contraintes de la table TypeLinges
+--
 ALTER TABLE TypeLinges
-        ADD
-        CONSTRAINT fore_LingeClient
-        FOREIGN KEY (LingeClientid_LingeClient) REFERENCES LingeClient(id_typeLinges);
+ADD CONSTRAINT fk_TypeLinges FOREIGN KEY (LingeClientid_LingeClient)
+REFERENCES lingeclient (lingeclient_id);

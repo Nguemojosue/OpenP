@@ -1,4 +1,6 @@
+--
+-- contraintes de la table Personnes
+--
 ALTER TABLE Personnes
-        ADD
-        CONSTRAINT fore_Adresses
-        FOREIGN KEY (Adresseid_adresse) REFERENCES Adresses(id_adresse);
+ADD CONSTRAINT fk_Personnes FOREIGN KEY (Adresseid_adresse)
+REFERENCES Adresses (id_adresse);
