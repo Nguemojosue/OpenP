@@ -3,5 +3,5 @@
 --
 CREATE TABLE valeurattributs(
    valeurattribut_id INT PRIMARY KEY NOT NULL,
-   nom VARCHAR(50)
+   nom VARCHAR2(50)
 );

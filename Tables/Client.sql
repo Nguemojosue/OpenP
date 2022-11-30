@@ -1,6 +1,6 @@
 CREATE TABLE Client (
-    id_client VARCHAR(255) PRIMARY KEY NOT NULL ,
+    id_client VARCHAR2(255) PRIMARY KEY NOT NULL ,
     telephone Numeric (19,0),
-    email VARCHAR(255),
-    Personnesid_personne VARCHAR(255)
+    email VARCHAR2(255),
+    Personnesid_personne VARCHAR2(255)
 );

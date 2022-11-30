@@ -3,8 +3,8 @@
 --
 CREATE TABLE promos(
    annonce_id_annonces INTEGER,
-   offretypelinge_id VARCHAR(255),
-   offreservice_id VARCHAR(255),
-   offreservice_nom VARCHAR(255),
-   codepromo VARCHAR(255)
+   offretypelinge_id VARCHAR2(255),
+   offreservice_id VARCHAR2(255),
+   offreservice_nom VARCHAR2(255),
+   codepromo VARCHAR2(255)
 );
