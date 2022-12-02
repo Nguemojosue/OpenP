@@ -3,5 +3,5 @@
 --
 ALTER TABLE Client 
 ADD 
-CONSTRAINT Personnes_fk FOREIGN KEY (Personnesid_personne) 
-REFERENCES Client (id_client);
+CONSTRAINT fk_Personnes FOREIGN KEY (Personnesid_personne) 
+REFERENCES Personnes (id_personne);
