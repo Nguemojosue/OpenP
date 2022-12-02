@@ -12,3 +12,6 @@ CREATE TABLE BesoinClient (
     Adresseid_adresse3 VARCHAR2(255),
     Pressingid_pressings VARCHAR2(255)
 );
+
+
+

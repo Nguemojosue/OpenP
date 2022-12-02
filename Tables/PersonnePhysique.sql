@@ -5,3 +5,5 @@ CREATE TABLE PersonnePhysique (
     genre VARCHAR2(255),
     Personnesid_personne VARCHAR2(255)
 );
+
+

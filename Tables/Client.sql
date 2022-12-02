@@ -4,3 +4,6 @@ CREATE TABLE Client (
     email VARCHAR2(255),
     Personnesid_personne VARCHAR2(255)
 );
+
+
+
