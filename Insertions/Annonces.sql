@@ -1,5 +1,5 @@
 INSERT INTO Annonces (id_annonces, date_publication , duree, Pressingsid_pressings, Utilisateurid_utilisateur ,Utilisateurid_utilisateur2)
-VALUES(id_annonces_seq.nextval,'25/08/2022', '10:0:00' ,'P21', 'U15' , 'u11' );
+VALUES(id_annonces_seq.nextval,'25/08/2022', '10:00:00' ,'P21', 'U15' , 'u11' );
 
 INSERT INTO Annonces (id_annonces, date_publication , duree, Pressingsid_pressings, Utilisateurid_utilisateur ,Utilisateurid_utilisateur2)
 VALUES(id_annonces_seq.nextval,'15/10/2022', '24:00:00' ,'P10', 'U11' , 'u12' );
