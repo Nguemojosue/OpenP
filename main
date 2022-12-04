@@ -1,5 +1,5 @@
 PROMPT******************** SET NLS LANGUAGE*********************
-ALTER SESSION SET NLS_LANGUAGE=English;
+ALTER SESSION SET NLS_LANGUAGE = English;
 
 
 PROMPT******************** SET NLS TERRITORY*********************
@@ -12,7 +12,7 @@ set linesize 1000
 PROMPT******************** SET page size*********************
 set pagesize 1000
 PROMPT******************** SET NLS DATE FORMAT*********************
-ALTER session set NLS_DATE_FORMAT='DD/MM/YYYY';
+ALTER session set NLS_DATE_FORMAT = 'DD/MM/YYYY';
 
 PROMPT
 PROMPT

@@ -8,7 +8,7 @@ INSERT INTO Client (id_client, telephone, email,Personnesid_personne)
 VALUES(id_client_seq.nextval,'693921849', 'dontsaclaudia3@gmail.com', '2');
 
 INSERT INTO Client (id_client, telephone, email,Personnesid_personne)
-VALUES(id_client_seq.nextval,'671884662', 'djoumessidalhia3@gmail.com', '3');
+VALUES(id_client_seq.nextval,'671884662', 'djoumessidahlia3@gmail.com', '3');
 
 INSERT INTO Client (id_client, telephone, email,Personnesid_personne)
 VALUES(id_client_seq.nextval,'655892426', 'djoumessiezechiel3@gmail.com', '4');
