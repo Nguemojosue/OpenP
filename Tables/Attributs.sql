@@ -8,4 +8,5 @@ CREATE TABLE Attributs(
    typeServiceid_typeServices INTEGER,
    offretypelingesid_typeLinges VARCHAR2(255),
    offreservicesid_services VARCHAR2(255),
+   offresservicesnom VARCHAR2(255)
 );

@@ -1,7 +1,6 @@
 Prompt ******  Creating TypeLinges table ....
 
 INSERT INTO TypeLinges (id_typeLinges, nature, matiere,LingeClientid_LingeClient)
-<<<<<<< HEAD
 VALUES(id_typeLinges_seq.nextval,'supercent', 'tissus', '21');
 
 INSERT INTO TypeLinges (id_typeLinges, nature, matiere,LingeClientid_LingeClient)
@@ -131,4 +130,3 @@ VALUES(id_typeLinges_seq.nextval,'lingerie', 'coton', '46');
 
 INSERT INTO TypeLinges (id_typeLinges, nature, matiere,LingeClientid_LingeClient)
 VALUES(id_typeLinges_seq.nextval,'jupe', 'polystyrene', '46');
->>>>>>> 51b6271e3e73c2887fb8f1b61b5d2309fa729e8c
