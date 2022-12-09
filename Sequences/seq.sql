@@ -22,22 +22,26 @@ START WITH 1 INCREMENT BY 1;
 CREATE SEQUENCE id_privileges_seq
 START WITH 1 INCREMENT BY 1;
 
+<<<<<<< HEAD
 CREATE SEQUENCE service_id_seq
 START WITH 1 INCREMENT BY 1;
 
 CREATE SEQUENCE attribut_id_seq
+=======
+CREATE SEQUENCE id_attributs_seq
+>>>>>>> 51b6271e3e73c2887fb8f1b61b5d2309fa729e8c
 START WITH 1 INCREMENT BY 1;
 
-CREATE SEQUENCE lingeclient_id_seq
+CREATE SEQUENCE id_LingeClient_seq
 START WITH 1 INCREMENT BY 1;
 
-CREATE SEQUENCE service_id_seq
+CREATE SEQUENCE id_services_seq
 START WITH 1 INCREMENT BY 1;
 
-CREATE SEQUENCE type_service_id_seq
+CREATE SEQUENCE id_typeServices_seq
 START WITH 1 INCREMENT BY 1;
 
-CREATE SEQUENCE valeurattribut_id_seq
+CREATE SEQUENCE id_valeurattributs_seq
 START WITH 1 INCREMENT BY 1;
 
 CREATE SEQUENCE id_typeLinges_seq
@@ -111,34 +115,34 @@ END;
 /
 
 CREATE OR REPLACE TRIGGER attribut_tg
-BEFORE INSERT ON attributs
+BEFORE INSERT ON Attributs
 FOR EACH ROW
 BEGIN
-:new.attribut_id := attribut_id_seq.nextval;
+:new.id_attributs := id_attributs_seq.nextval;
 END;
 /
 
-CREATE OR REPLACE TRIGGER lingeclient_tg
-BEFORE INSERT ON lingeclient
+CREATE OR REPLACE TRIGGER LingeClient_tg
+BEFORE INSERT ON LingeClient
 FOR EACH ROW
 BEGIN
-:new.lingeclient_id := lingeclient_id_seq.nextval;
+:new.id_LingeClient := id_LingeClient_seq.nextval;
 END;
 /
 
-CREATE OR REPLACE TRIGGER service_tg
+CREATE OR REPLACE TRIGGER services_tg
 BEFORE INSERT ON services
 FOR EACH ROW
 BEGIN
-:new.service_id := service_id_seq.nextval;
+:new.id_services:= id_services_seq.nextval;
 END;
 /
 
 CREATE OR REPLACE TRIGGER valeurattribut_tg
-BEFORE INSERT ON valeurattributs
+BEFORE INSERT ON Valeurattributs
 FOR EACH ROW
 BEGIN
-:new.valeurattribut_id := valeurattribut_id_seq.nextval;
+:new.id_valeurattributs := id_valeurattributs_seq.nextval;
 END;
 /
 
