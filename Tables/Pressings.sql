@@ -1,3 +1,5 @@
+Prompt ******  Creating Pressings table ....
+
 CREATE TABLE Pressings (
     id_pressings VARCHAR2(255) PRIMARY KEY NOT NULL,
     nom VARCHAR2(255) NOT NULL,

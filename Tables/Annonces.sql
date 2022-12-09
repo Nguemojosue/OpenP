@@ -1,3 +1,5 @@
+Prompt ******  Creating Annonces table ....
+
 CREATE TABLE Annonces (
     id_annonces VARCHAR2(255) PRIMARY KEY NOT NULL,
     date_publication DATE,

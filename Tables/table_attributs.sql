@@ -1,6 +1,5 @@
---
--- creation de la table attributs
---
+Prompt ******  Creating attributs table ....
+
 CREATE TABLE attributs(
    attribut_id INT PRIMARY KEY NOT NULL,
    couleur VARCHAR2(50),

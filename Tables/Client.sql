@@ -1,3 +1,5 @@
+Prompt ******  Creating Client table ....
+
 CREATE TABLE Client (
     id_client VARCHAR2(255) PRIMARY KEY NOT NULL ,
     telephone Numeric (19,0),

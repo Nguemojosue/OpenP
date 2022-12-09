@@ -1,6 +1,5 @@
---
--- creation de la table promos
---
+Prompt ******  Creating promos table ....
+
 CREATE TABLE promos(
    annonce_id_annonces INTEGER,
    offretypelinge_id VARCHAR2(255),

@@ -1,4 +1,4 @@
--- Create a new relational table with 3 columns
+Prompt ******  Creating Roles table ....
 
 CREATE TABLE Roles  
 (

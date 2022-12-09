@@ -1,3 +1,5 @@
+Prompt ******  Creating Privileges table ....
+
 CREATE TABLE Privileges (
     id_privileges VARCHAR2(255) PRIMARY KEY NOT NULL,
     nature VARCHAR2(255),

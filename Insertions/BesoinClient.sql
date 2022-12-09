@@ -23,3 +23,28 @@ VALUES(id_besoinClient_seq.nextval,'Lavage', 'Avec Amidon Plus Repassage', '25',
 INSERT INTO BesoinClient (id_besoinClient, nom, description,TypeLingesid_typeLinges, Clientid_client, 
 Utilisateurid_utilisateur, Adresseid_adresse, Adresseid_adresse2, Adresseid_adresse3, Pressingid_pressings)
 VALUES(id_besoinClient_seq.nextval,'Lavage', 'A Eau', '26', '6', '32', '6','7','8', '12');
+
+INSERT INTO BesoinClient (id_besoinClient, nom, description,TypeLingesid_typeLinges, Clientid_client, 
+Utilisateurid_utilisateur, Adresseid_adresse, Adresseid_adresse2, Adresseid_adresse3, Pressingid_pressings)
+VALUES(id_besoinClient_seq.nextval,'Lavage', 'A Eau Avec Teinture Bleue', '27', '7', '33', '7','8','9', '13');
+
+INSERT INTO BesoinClient (id_besoinClient, nom, description,TypeLingesid_typeLinges, Clientid_client, 
+Utilisateurid_utilisateur, Adresseid_adresse, Adresseid_adresse2, Adresseid_adresse3, Pressingid_pressings)
+VALUES(id_besoinClient_seq.nextval,'Lavage', 'Avec Amidon Plus Teinture De Couleur Rouge Avec Repassage A Charbon', '28', '8', '34', '8','9','10', '14');
+
+INSERT INTO BesoinClient (id_besoinClient, nom, description,TypeLingesid_typeLinges, Clientid_client, 
+Utilisateurid_utilisateur, Adresseid_adresse, Adresseid_adresse2, Adresseid_adresse3, Pressingid_pressings)
+VALUES(id_besoinClient_seq.nextval,'Lavage', 'A Sec Plus Repassage A Vapeur', '29', '9', '35', '9','10','11', '15');
+
+INSERT INTO BesoinClient (id_besoinClient, nom, description,TypeLingesid_typeLinges, Clientid_client, 
+Utilisateurid_utilisateur, Adresseid_adresse, Adresseid_adresse2, Adresseid_adresse3, Pressingid_pressings)
+VALUES(id_besoinClient_seq.nextval,'Lavage', 'Avec Eau Plus Repassage A Charbon', '30', '10', '36', '10','11','12', '16');
+
+INSERT INTO BesoinClient (id_besoinClient, nom, description,TypeLingesid_typeLinges, Clientid_client, 
+Utilisateurid_utilisateur, Adresseid_adresse, Adresseid_adresse2, Adresseid_adresse3, Pressingid_pressings)
+VALUES(id_besoinClient_seq.nextval,'Lavage', 'Avec Amidon Plus Repassage Avec Teinture Rose', '31', '11', '37', '11','12','13', '17');
+
+INSERT INTO BesoinClient (id_besoinClient, nom, description,TypeLingesid_typeLinges, Clientid_client, 
+Utilisateurid_utilisateur, Adresseid_adresse, Adresseid_adresse2, Adresseid_adresse3, Pressingid_pressings)
+VALUES(id_besoinClient_seq.nextval,'Lavage', 'A Eau Avec Teinture Violet', '32', '12', '38', '12','13','14', '17');
+

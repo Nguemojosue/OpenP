@@ -1,6 +1,5 @@
--- 
--- creation de la table offres
---
+Prompt ******  Creating offres table ....
+
 CREATE TABLE offres(
    id_typelinges VARCHAR2(255),
    service_id VARCHAR2(255),
